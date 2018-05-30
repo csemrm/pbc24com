@@ -1,0 +1,68 @@
+/***************************************************************
+RESET BROWSER VALUES SO EVERYONE IS THE SAME
+***************************************************************/
+@import url(reset.css);
+@import url(common.css);
+@import url(style.css);
+
+
+/***************************************************************
+TAG STYLES
+***************************************************************/
+h1 { font-size: 30px; }
+h2 { background-color: #eeeeee;
+    color: #387fcf;
+    font-family: Arial;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-top: 12px; }
+h3 {
+    background-color: #eeeeee;
+    color: #387fcf;
+    font-family: Arial;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-top: 12px;
+}
+h4 { font-size: 12px; margin-bottom: 5px; }
+a { color: #dc461c; } 
+blockquote { font-style: italic; margin-bottom: 20px; }
+cite { display: block; font-size: 12px; color: #e95c18; margin-top: 10px; } 
+input { padding: 2px; }
+ul { margin: 0 0 10px 15px; }
+li { font: 14px   Georgia;  }
+input, textarea { border: 1px solid #ccc; }
+textarea { font-family: Arial; color: #333; font-size: 12px; }
+
+
+/***************************************************************
+GENERIC CLASSES 
+***************************************************************/
+.left { float: left; }
+.right { float: right; }
+.block { margin-bottom: 30px; }
+a.readmore { display: block; }
+table.form td { padding: 3px 5px 3px 0; }
+
+
+/***************************************************************
+SPECIFIC AREAS
+***************************************************************/
+div#error_404 { margin: -100px 0 0 340px; }
+div#container {    }
+div#container_inner { position: relative; width: 960px; margin: auto; }
+div#header { width: 840px; height: 370px; margin: auto; position: relative; }
+
+/* top nav*/
+div#topnav { position: absolute; top: 10px; right: 0px; z-index: 10; }
+div#topnav, div#topnav a { color: #5a7995; font-size: 12px; }
+div#topnav li { float: left; display: block;  border-right: 1px solid #5a6e7f; }
+div#topnav li a { display: block; margin: 0 10px; line-height: 12px; text-decoration: none; }
+div#topnav li.last { border: none; }
+
