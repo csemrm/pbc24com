@@ -1,5 +1,5 @@
 /*
-Theme Name: PBC 24 COM
+Theme Name: PBC24 COM
 Theme URI: https://wordpress.org/themes/pbc24com/
 Author: the SoftValley team
 Author URI: https://wordpress.org/
@@ -8,8 +8,8 @@ Version: 2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
-Text Domain: twentyfifteen
-
+Text Domain: pbc24com
+Template:     editorial
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
@@ -18,3 +18,102 @@ Use it to make something cool, have fun, and share what you've learned with othe
     Author     : mrahman
 */
 
+.bottom-header-wrapper {
+    background: #000 none repeat scroll 0 0;
+}
+
+#site-navigation ul li a {
+    color: #fff;
+}
+#site-navigation ul ul li a {
+    color: #5d5c5c;
+}
+
+#top-footer {
+    background: #000 none repeat scroll 0 0;
+}
+.mt-first-footer-widget{
+    text-align: center;
+}
+.mt-fourth-footer-widget{
+    text-align: center;
+}
+.mt-footer-widget{
+    color: #fff;
+}
+.mt-footer-widget .widget-title{
+    color: #fff;
+}
+.is-sticky .bottom-header-wrapper{
+    background: #000;
+}
+#secondary,
+.home.blog #secondary {
+    float: right;
+    width: 22%;
+}
+#primary,
+.home.blog #primary {
+    float: left;
+    width: 76%;
+}
+
+.archive-columns .archive-content-wrapper article {
+    box-shadow: 0 0 12px #9E9E9E;
+    margin: 0 -4px 20px 2%;
+    width: 23%;
+}
+.archive-columns .entry-title a{
+    font-size:16px;
+    color:#DE0001;
+    text-align:justify;
+    margin-top:10px;
+    font-family: 'SolaimanLipiNormal';
+    margin-top:15px;
+    line-height:20px;
+}
+
+.archive-columns .archive-desc-wrapper{
+    padding: 5px 10px 10px;
+    box-shadow: 0 0 0px transparent;
+}
+.nav-links{
+    margin: 0 auto;
+    text-align: center;
+}
+.archive-columns .entry-header{
+    margin-top: 0px;
+}
+.current-cat{
+    border-color: red;
+}
+.archive .editorial-ticker-wrapper{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.archive .widget_recent_entries{
+    background: #F1F1F1;
+}
+.archive .widget_recent_entries .widget-title{
+    background: transparent;
+    margin-top: 10px;
+}
+.archive .widget_recent_entries a::before{
+    content: none;
+}
+.archive .widget_recent_entries ul{
+    list-style: inside;
+}
+.archive .widget_recent_entries li{
+    list-style-image:url(images/bullet.png);
+    margin-left:20px;
+    margin-top:5px;
+    font-family: 'SolaimanLipiNormal';
+    font-size:14px;	
+}
+.archive .widget_recent_entries li a{
+    padding: 0px;
+    display: inline;
+    line-height: 25px;
+}
