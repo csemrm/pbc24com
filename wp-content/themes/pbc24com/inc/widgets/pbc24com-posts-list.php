@@ -86,7 +86,7 @@ class Pbc24com_Posts_List extends WP_widget {
             </div><!-- .block-header -->
             <div class="posts-list-wrapper list-posts-block">
                 <?php
-                $posts_list_args = pbc24com_query_args($cat_id = null, $pbc24com_block_posts_count);
+                $posts_list_args = editorial_query_args($cat_id = null, $pbc24com_block_posts_count);
                 if ($pbc24com_block_posts_type == 'random') {
                     $posts_list_args['orderby'] = 'rand';
                 }

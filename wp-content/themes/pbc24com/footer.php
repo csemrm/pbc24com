@@ -13,20 +13,41 @@
 ?>
 </div><!--.mt-container-->
 </div><!-- #content -->
-
+<div id="pbc24com-footer" class="footer-widgets-wrapper clearfix  column4">
+    <div class="mt-container">
+        <div class="footer-widgets-area clearfix">
+            <div class="mt-footer-widget-wrapper clearfix">
+                <div class="mt-first-footer-widget mt-footer-widget">
+                    <?php
+                    if (!dynamic_sidebar('pbc24com_bottom_one')):
+                    endif;
+                    ?>
+                </div>
+                <div class="mt-second-footer-widget mt-footer-widget">
+                    <?php
+                    if (!dynamic_sidebar('pbc24com_bottom_two')):
+                    endif;
+                    ?>
+                </div>
+                <div class="mt-third-footer-widget mt-footer-widget">
+                    <?php
+                    if (!dynamic_sidebar('pbc24com_bottom_three')):
+                    endif;
+                    ?>
+                </div>
+                <div class="mt-fourth-footer-widget mt-footer-widget">
+                    <?php
+                    if (!dynamic_sidebar('pbc24com_bottom_four')):
+                    endif;
+                    ?>
+                </div>
+            </div><!-- .mt-footer-widget-wrapper -->
+        </div><!-- .footer-widgets-area -->
+    </div><!-- .nt-container -->
+</div><!-- #top-footer -->
 <footer id="colophon" class="site-footer " role="contentinfo">
-    <div class="featured-slider-section clearfix">
 
-        <?php
-        if (is_active_sidebar('pbc24com_home_bottom_area')) {
-            if (!dynamic_sidebar('pbc24com_home_bottom_area')):
-            endif;
-        }
-        ?>
-
-    </div>
-    
-        <?php get_sidebar('footer'); ?>
+    <?php get_sidebar('footer'); ?>
     <div id="bottom-footer" class="sub-footer-wrapper clearfix">
         <div class="mt-container">
             <div class="site-info">
